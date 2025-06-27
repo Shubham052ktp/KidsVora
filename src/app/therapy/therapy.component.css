@@ -1,0 +1,164 @@
+.therapy-wrapper {
+    font-family: 'Work Sans', 'Noto Sans', sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .therapy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2.5rem;
+    border-bottom: 1px solid #e7edf4;
+    flex-wrap: wrap;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #0d141c;
+  }
+  
+  .therapy-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .therapy-nav a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #0d141c;
+    text-decoration: none;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #3d98f4;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #e7edf4;
+    color: #0d141c;
+  }
+  
+  .therapy-main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .therapy-options,
+  .consultation-options,
+  .meet-therapists {
+    margin-top: 2rem;
+  }
+  
+  .therapy-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .therapy-card .info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .therapy-card .image {
+    flex: 1;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 16/9;
+  }
+  
+  .image-1 {
+    background-image: url('https://lh3.googleusercontent.com/...1');
+  }
+  .image-2 {
+    background-image: url('https://lh3.googleusercontent.com/...2');
+  }
+  .image-3 {
+    background-image: url('https://lh3.googleusercontent.com/...3');
+  }
+  .image-4 {
+    background-image: url('https://lh3.googleusercontent.com/...4');
+  }
+  .image-5 {
+    background-image: url('https://lh3.googleusercontent.com/...5');
+  }
+  
+  .therapist-list {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  .therapist-card {
+    min-width: 160px;
+    text-align: center;
+  }
+  
+  .avatar {
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9999px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .avatar-1 {
+    background-image: url('https://lh3.googleusercontent.com/...a1');
+  }
+  .avatar-2 {
+    background-image: url('https://lh3.googleusercontent.com/...a2');
+  }
+  .avatar-3 {
+    background-image: url('https://lh3.googleusercontent.com/...a3');
+  }
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .therapy-footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #e7edf4;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    font-size: 0.875rem;
+    color: #49739c;
+    text-decoration: none;
+  }
+  

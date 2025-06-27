@@ -1,0 +1,191 @@
+.product-wrapper {
+    font-family: 'Work Sans', 'Noto Sans', sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2.5rem;
+    border-bottom: 1px solid #e7edf4;
+    flex-wrap: wrap;
+  }
+  
+  .product-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #0d141c;
+  }
+  
+  .product-logo h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: -0.015em;
+  }
+  
+  .product-nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-nav a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #0d141c;
+    text-decoration: none;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #3d98f4;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #e7edf4;
+    color: #0d141c;
+  }
+  
+  .product-main {
+    padding: 2rem 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-intro h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d141c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-intro p {
+    font-size: 0.875rem;
+    color: #49739c;
+    margin-bottom: 2rem;
+  }
+  
+  .product-search .search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #e7edf4;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 0.5rem;
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #0d141c;
+  }
+  
+  .product-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .product-filters button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #e7edf4;
+    color: #0d141c;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .product-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+    color: #0d141c;
+  }
+  
+  .product-info {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .product-info .title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .product-info .description {
+    font-size: 0.875rem;
+    color: #49739c;
+  }
+  
+  /* Background Images */
+  .product-1 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzpcBmOaDY_O4SbfQHDmbicdheRAXJ20POhm34eZFb1j2EJ4vykizaNGF90jPJpbriBIS3dJj0Iz0BEueJO6bjsLboZiQ2aKjYSWBmhM5fhmy91G-HOhRwfjK27pqzPKO7N21CkUGK6qoglsRaHO8ce1mSn8xmIYG2VvsSgm0sLzZb-tGbIWC5ak2eheocHrJc2sgAiU4DrHlp0GJSnpQ4Yn2HvuK21h92t3i0c1DdkHbZjFxFKJc0iEXR0JfwkJ3EKMyaxO2bWun9'); }
+  .product-2 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDFLTXsS73Ue9pqoAVryoFKlSNOQrac6OJ-AZkDHjvEGfi8KHlZsISo56NJG6EvGsXDVFqNwPJNYm1eHxgeHuLjI9o0iKr5hZfh_-nTnc2pbeuf5-46qPN-dVG69QBmg9FQZt3la2pVRYbF0BW1lwpHeBVlV3GDuaoF99Kc_aXrl35QWz23QvBEr_cS7cBj3FYDmcFpb7jwNqnr9QHCP5UGc-qT0PzsPVXU0Dz9oDYRhDeLAfjzPA1YhOmyo7Y45XewvuSortFcBtaO'); }
+  .product-3 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDR84pC8raAuL8-T_qIzzjUOTlKUG6zGhUE5l_Z7VyIDbK8UYwiCDGkuHRAYQp6q3SbdMFgo2s-WwairOWpUmzBdzW_MYD0dHp-G_3uoVv6FnI7GtsmZV5lXd8UtTGYRlWcguM6JRNJjaxiZF64bvU1lkbjmsMTMh-shDsOnsstlz_8wCZ9jWsXBFusyHAdZhmAvQdZ2xz0goWsSpv6Dyfcq3YOphiCSbbTlxi-MMkugOPS25h5M2kvT4_rzk27DVPCs88Thw0ruOIY'); }
+  .product-4 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCFYo44iJTAztXYWALJgEJB_IcMZytMqshQ38wpwJ6coZnpBPICjpko9gygNMQQAA8GnHtW-TLW_G5bihS58X95j7ux5B7DgAoci0rTaBuI6lGGwgPEoHy876rxpSrxvWE_7dR7qC99lfFyLfqfCC0_7Wtw_q5Rwrt76HXfhyrn56KlKJ6wPXX4IHhUGVJPdARMixO6APX84Qeeg4e_z7L9YUEaZuc2dyj_FFcmvWeShyN04EsG7QIQ6DrQn71TD_3k2JOMzGW0-UQz'); }
+  .product-5 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcF8zjLDAwb2XhL3lTZzq3Hm_gX4ur4lfrkOjMH7e47epmx8Wq4XQpdsDqzpZ_wLA4r6MQZN_TY9kf11XAGmYE7ej3LqTUMmMWlGEGc56j7UHMTzI5PFz4bUVfzDbGsLkHVR-BxWa8rOL3pk9KaLNdFBDLJwsobbt6baNEldFIfPIcDKJehtFp5IlBUE6oPSn3TECJlxxgR6vEWZAogWdr12VHKFJLoBcT07aLyso7G4C_UfMjpoYfBqM6cVt33f1zWyTqzFhv4ZSY'); }
+  .product-6 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBFmGYle9fq0W-1a_JBZQEp2dNi-wNhz3UXcnDsCAItASLvJ2GzavVB6h9BAyG69H3DNSZ1s3k4lZvUSvrijsxXg78j1dwtfOTyWg4Hjrv1ya63gIBBi9zkHrwYd6wmJE-I9qi3FCfUPWBqnp-TsOgP0V-f33xxCvSodZuHgJjKQbZfNRwyQvWUPtveHP4SaEdDljn3g6iilGoNKFTRyH9olHW-W0BG0mBbv7-z2tW9A1d6-uiDz9G6eIMZNzofFkk1IzSqhKp24j0K'); }
+  .product-7 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDqAmzQO9j1qpXl28PsgOj9OugaH6U5QQr8P_Gg9z2IcRztwo7bDjam3MF3wrGcnnDAtomHN5075hewtj6QU1nuaDVJciW8dhHRSgr0Rv7nFJ7t5u_7z9kZlEhj6nhEFnLOYVOE9QvbhzMS1h6SfWHIS7ZT2toWclCGbOmbbMydhmU8dwD36qFuhxrYDYX9X52Lx2sVaC_CJ_mzgmN8HqXxoG8OPbwRS70jEbWvAuN2oHISdCV09oYEg2tD8uRFYOnfo3SYoHAVtoJV'); }
+  .product-8 { background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBvlD595ksjPXbtHEoiewB55Jr8LaOB7GTPtsRvTfW1f6iJhbBdCmYflZwEJ25vDWbMhgvwga5mPlYsBkswlyuzetKzo2iGmnpjt3vSRlZxcCil2YFFZR9fa-ygTWsaCo8Vs9NgMIySwAWJVPGpo36bgQPWN80E2YoZXXErVw05bjLsf2VNpyHOYcYIud2bYifTTgmQzeGjJ-cxp0JDniTzFAAiK-VZT8vFijwpDlCZ_mE7Q9z53EejbpvOMEdvB4zIIpslZAZGYCfl'); }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .pagination a,
+  .pagination span {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #e7edf4;
+    color: #0d141c;
+    font-weight: bold;
+  }
+  
+  .pagination a.active {
+    background-color: #0d141c;
+    color: white;
+  }
+  

@@ -1,0 +1,90 @@
+.resource-wrapper {
+    font-family: 'Work Sans', 'Noto Sans', sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2.5rem;
+    border-bottom: 1px solid #e7edf4;
+    flex-wrap: wrap;
+  }
+  
+  .resource-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #0d141c;
+  }
+  
+  .resource-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .resource-nav a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #0d141c;
+    text-decoration: none;
+  }
+  
+  .resource-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #3d98f4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #e7edf4;
+    color: #0d141c;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* Add more styles for sections like .resource-intro, .resource-featured, .article-card, etc. */
+  
+  .article-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    aspect-ratio: 16 / 9;
+    padding: 1rem;
+    color: #0d141c;
+  }
+  
+  .bg-1 {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqeN1mV-bLu1fEM7VvtHulaMP6cL2LOal07CLA3GhMIIXv2Ll6STZfLFyhrsvRo3z8tb-4ygDH8Y-0BCXut_yejt1lcdLUEKNI0Q1hWUOLiHBq4e-okz69836xVZ0aNWo0C5_omHfBPfsZF7inzZ5NsPul208viynzdyyCWekJbKqOgOf2j6Ctnx8SFwicov1prU-n3gRmMIhXIpwGkGLwpz_QcnH7e1cerEzbTAnMcrxDJt2J0Au21q9xrcwMansL_W2Ix4grVsbh");
+  }
+  .bg-2 {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqmbOBZsK_Q_Oz14-Ew6__ltZ--LiJsxC1RT0V_BntEQtndIDnvkBSGaMJaYHn4wvMbxDePliGMg-ICpeHhfxdsbdONIOf87QcF8DN0ZZ9BVbnuWeM8qGR44fcpDFod1-TMdiOHPID8xBNzvCnRz7hL_uzo_xdm0Nsjhc2isYCJ7NwY6IsOXHWXg62BG3SFhZyKREhusU_8W6L6T_lbNQ9afpWBVX7iW5IRMdcyjhvqFIgVYqfULva6L2UUXLXK1jOqI6fwUl7mbwh");
+  }
+  .bg-3 {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQ0doYEorFCCuOJzSkwrnMFovi-bKicDGIN2stDOsRJzyVg5Sycv0XUMuLGNSOReDeyza-n-5R_351jzolS8G2wWFOCaiJwJoX1J2oSMnvo5j0WsDtsIAH0QduootlX_QX9J8fd2OjwD0DEFtkt07-75kTm5ZmXzGlMIxs9GYoJ59ZCIMYJBl0kOxA1sO5pCdXZ1hYSiRMhpOCTfbnyNemVwLfvZHUgzu8JG5rSpkEvecf8470f_SaYYvhBmV_sVy7a9IjvX_nrAeZ");
+  }
+  .bg-4 {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB70DJpcA7CLfMBFEcDv0YnlmkXDmqVNCFctJCPeHVYI-snuEDHwON-QU-UZCz8rW1ujtNg_-XNaLE4EmzkD3VqvlBk7M0O2ANRzpXP9RSWy7gTNcPh1bHGFGiwnxbepB1T7xAYJ_TrCGBczU7MgW0kTQ-lhugjzS4t2sXGve6Q82qIAuPRcvXh5Ax-jv7zEjykWxABnM0o6r5ms5mKZKcHkUshOaptu_WOTaNWN3YfUOewoAJMnOOrWLZ-7ZLjNthzxQJdgbEK2PQk");
+  }
+  .bg-5 {
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCBJ74IRxtWrVQXQAceSYCdyZRwDZCAtzcZNOGVnl0J-100x_cE1jl5xkZCE-5_sTBwEg8JxvpltqJxptyZWscf1f6ZPbID-73SYxInU4hvE_z8w5TtpAxWAYha8L05zpxYeugDMKH3YDDzpY2E_EAPA-lF1O3CH3ZXCIiQkJuqOayQH_ljNooZP2yJ7I3IEwwrD8l0c0fPU_wehuhWHC9WgOQ-k9aGENEIIKHs_Oo-y5LunxQEnu2XPvLi2u-dzsJK-gM1y0kZbj1Q");
+  }
+  
